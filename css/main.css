@@ -258,6 +258,31 @@ ol{
   background-image: url("../images/features_back.png");
 }
 
+.searches::before{
+  position: absolute;
+  top: -15%;
+  right: 120%;
+  content: "";
+  width: 1065px;
+  height: 435px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../images/search.png");
+
+}
+
+.share::before{
+  position: absolute;
+  top: -15%;
+  right: 120%;
+  content: "";
+  width: 1065px;
+  height: 435px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../images/easy-sharing.png");
+
+}
 
 .features-box{
   width: 540px;
@@ -696,3 +721,7 @@ input:not(:placeholder-shown):not(focus):invalid ~ .join-error {
 .site-footer-right{
   margin-left: auto;
 }
+
+/* .features-list-searching{
+  border-bottom: 5px solid #FA5959;
+} */
