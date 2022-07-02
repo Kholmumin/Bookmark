@@ -36,6 +36,7 @@
 html{
   height: 100%;
   box-sizing: border-box;
+
 }
 
 img{
@@ -322,12 +323,27 @@ ol{
 .features-list-item{
   padding-bottom: 27px;
   border-bottom: 5px solid transparent;
+  /* border-bottom-color:  #FA5959; */
 }
 
 .features-list-item:first-child{
   padding-bottom: 27px;
+  
+}
+
+.features-bottom-border{
   border-bottom-color:  #FA5959;
 }
+
+
+.features-click{
+  display: none;
+}
+
+.features-click-block{
+  display: block;
+}
+
 
 
 
