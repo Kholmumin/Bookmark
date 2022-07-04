@@ -640,6 +640,8 @@ input:not(:placeholder-shown):not(focus):invalid ~ .join-error {
 }
 
 .join-btn{
+  position: relative;
+  top: -58px;
   padding: 13px 24px;
   font-weight: 500;
   font-size: 14px;
@@ -653,7 +655,7 @@ input:not(:placeholder-shown):not(focus):invalid ~ .join-error {
 
 .join-error{
   position: relative;
-  top: -5px;
+  top: -19px;
   display: inline-block;
   width: 270px;
   padding-top: 10px;
